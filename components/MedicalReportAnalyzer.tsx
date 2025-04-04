@@ -22,10 +22,10 @@ export default function MedicalReportAnalyzer() {
 
   return (
     <div className="container px-4 py-8">
-      <div className="flex flex-col justify-center mb-8">
+      <div className="flex flex-col justify-center mb-8 mt-20">
         <div className="flex items-center mb-4">
           <Stethoscope className="w-8 h-8 mr-2" />
-          <h1 className="text-3xl text-left font-bold">Decode Your <span className="text-blue-500">Medical</span> Report in Second </h1> 
+          <h1 className="text-3xl text-left font-bold ">Decode Your <span className="text-blue-500">Medical</span> Report in Second </h1> 
         </div>
         <h2 className="text-2xl text-left font-bold"> AI-Powered</h2>
        {/* <AnalysisSteps />*/}

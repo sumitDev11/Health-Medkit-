@@ -15,11 +15,11 @@ const Navbar = () => {
      </div>
  
      <div className=" relative">
-         <div  id='loginbtnbox'  className='h-full w-16 absolute bg-blue-600 left-1/2 -translate-x-1/2'>
+         <div  id='loginbtnbox'  className=' h-[calc(100%+4px)]   w-16 absolute bg-gradient-to-b from-[#3493C3] to-[#3895C2] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 '>
 
          </div>
-         <button className="w-24 py-2 pl-3  bg-white rounded-lg text-left">Login</button>
-         <button className="bg-blue-700 text-white w-[6.5rem] py-2 pr-3 rounded-lg text-right ">Sign Up</button>
+         <button className="w-28 py-2 pl-3  bg-[#D2F8FF] rounded-lg text-left rounded-l-full">Login</button>
+         <button className="bg-[#005664] text-white w-28 py-2 pr-3 rounded-lg text-right rounded-r-full ">Sign Up</button>
      </div>        
    
    

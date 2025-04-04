@@ -109,7 +109,7 @@ export default function UploadCard({
 
   return (
     <>
-      <Card className="max-w-2xl  mb-8 bg-white ">
+      <Card className="max-w-2xl  mb-8 bg-white mt-10 ">
        <CardHeader>
           <CardTitle className="text-blue-700">
             Upload Your Medical Report
