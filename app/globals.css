@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+#loginbtnbox{
+  border-radius: 55% 45% 51% 49% / 100% 0% 100% 0% ;
+}
+
