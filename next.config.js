@@ -1,3 +1,4 @@
+/** @type {import('next').NextConfig} */
 const nextConfig = {
   webpack: (config, { isServer }) => {
     if (!isServer) {
@@ -7,7 +8,6 @@ const nextConfig = {
       };
     }
 
-    // Ignore binary files to avoid Webpack processing them
     config.module.rules.push({
       test: /\.node$/,
       use: "ignore-loader",
@@ -15,6 +15,27 @@ const nextConfig = {
 
     return config;
   },
+
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'i.ibb.co',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'images.unsplash.com',
+        port: '',
+        pathname: '/**',
+      },
+    ],
+  },
+
+  experimental: {
+    turbo: false,
+  },
 };
 
-export default nextConfig;
+module.exports = nextConfig;

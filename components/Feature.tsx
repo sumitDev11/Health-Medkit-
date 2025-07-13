@@ -17,7 +17,7 @@ const Feature = () => {
           <div>
             <p>Color-coded indicators</p>
             <div className="flex items-center space-x-2 mt-1">
-              <span className="inline-block w-3 h-3 rounded-full bg-green-500"></span>
+              <span className="inline-block w-3 h-3 rounded-full bg-blue-500"></span>
               <span>Normal</span>
             </div>
             <div className="flex items-center space-x-2">
