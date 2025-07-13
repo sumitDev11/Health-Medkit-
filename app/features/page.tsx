@@ -1,6 +1,7 @@
 'use client';
 import React from 'react';
-import { Rocket, Brain, ShieldCheck, ClipboardList, LineChart, Languages, ChevronRight, CheckCircle } from 'lucide-react';
+import { Rocket, Brain, ShieldCheck, ClipboardList, LineChart, Languages, CheckCircle } from 'lucide-react';
+
 import Image from 'next/image';
 import Navbar from '@/components/Navbar';
 const CustomStyles = () => (
@@ -41,7 +42,8 @@ export default function Features() {
               The Future of Health Understanding is <span className="gradient-text-features">Here.</span>
             </h1>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              MedKit isn't just a document scanner; it's your personal health intelligence engine. We leverage cutting-edge AI to transform complex medical data into clear, actionable insights.
+              {"MedKit isn't just a document scanner; it's your personal health intelligence engine."}
+
             </p>
           </div>
 

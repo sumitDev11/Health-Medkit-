@@ -1,6 +1,6 @@
 'use client';
 import React from 'react';
-import { Info, UserCog, FileSearch, LayoutDashboard, ChevronRight } from 'lucide-react';
+import { Info, UserCog, FileSearch, LayoutDashboard } from 'lucide-react';
 import Image from 'next/image';
 import Navbar from '@/components/Navbar';
 
@@ -115,7 +115,7 @@ export default function MorePage() {
                 </div>
                 <h2 className="text-3xl font-bold text-gray-800 mb-2">Account & Personalization</h2>
                 <p className="text-gray-700 mb-5">
-                  You are in complete control. Manage your profile, strengthen security with 2FA, and tailor the AI for more relevant health insights.
+                  It&apos;s your health. Manage your profile, strengthen security with 2FA, and tailor the AI for more relevant health insights.
                 </p>
                 {/* <button className="inline-flex items-center gap-2 bg-gradient-to-r from-purple-500 to-pink-600 text-white font-bold py-3 px-6 rounded-lg hover:from-purple-600 hover:to-pink-700 transition-all duration-300 transform hover:scale-105">
                   Manage Account <ChevronRight className="w-5 h-5" />
