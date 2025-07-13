@@ -1,5 +1,5 @@
 import React from 'react';
-import { FileText, Shield, BarChart, Brain, Globe, Upload } from 'lucide-react';
+import { Shield, BarChart, Brain, Globe, Upload } from 'lucide-react';
 import { Card, CardContent } from "@/components/ui/card";
 
 // Features Component
