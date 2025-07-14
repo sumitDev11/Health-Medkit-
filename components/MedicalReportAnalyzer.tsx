@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import { Stethoscope } from "lucide-react";
-import AnalysisSteps from "./AnalysisSteps";
 import UploadCard from "./UploadCard";
 // import ResultsCard from "./ResultsCard";
 
