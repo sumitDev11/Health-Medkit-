@@ -42,7 +42,7 @@ export default function MorePage() {
               Explore <span className="gradient-text">MedKit</span>
             </h1>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Discover the powerful tools at your fingertips. From AI-powered insights to complete control over your health data, we've designed everything for your clarity and confidence.
+              Discover the powerful tools at your fingertips. From AI-powered insights to complete control over your health data, we&#39ve designed everything for your clarity and confidence.
             </p>
           </div>
 

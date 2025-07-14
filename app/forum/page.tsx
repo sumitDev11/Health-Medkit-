@@ -66,7 +66,7 @@ export default function ForumPage() {
                 </div>
                 <h2 className="text-3xl font-bold text-gray-800 mb-2">Understanding Your Reports</h2>
                 <p className="text-gray-700 mb-5">
-                  Feeling overwhelmed by terms like CBC, LFT, or high-density lipoprotein? You're not alone. Share your reports (with personal info removed) and ask questions to the community.
+                  Feeling overwhelmed by terms like CBC, LFT, or high-density lipoprotein? You&#39re not alone. Share your reports (with personal info removed) and ask questions to the community.
                   <strong className="block mt-2 text-sm text-sky-700">Disclaimer: Discussions are for peer support, not medical advice.</strong>
                 </p>
                 {/* <button className="inline-flex items-center gap-2 bg-gradient-to-r from-cyan-500 to-sky-600 text-white font-bold py-3 px-6 rounded-lg hover:from-cyan-600 hover:to-sky-700 transition-all duration-300 transform hover:scale-105">
@@ -86,7 +86,7 @@ export default function ForumPage() {
                 </div>
                 <h2 className="text-3xl font-bold text-gray-800 mb-2">Medicines & Supplements</h2>
                 <p className="text-gray-700 mb-5">
-                  From Vitamin D to Omega-3, there's a lot to navigate. Discuss your experiences with over-the-counter medications and health supplements. Share what's worked for you and learn from others.
+                  From Vitamin D to Omega-3, there&#39s a lot to navigate. Discuss your experiences with over-the-counter medications and health supplements. Share what&#39s worked for you and learn from others.
                   <strong className="block mt-2 text-sm text-orange-700">Disclaimer: Always consult your doctor before starting or stopping any medication.</strong>
                 </p>
                 {/* <button className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-500 to-orange-600 text-white font-bold py-3 px-6 rounded-lg hover:from-amber-600 hover:to-orange-700 transition-all duration-300 transform hover:scale-105">

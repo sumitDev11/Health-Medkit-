@@ -42,7 +42,7 @@ export default function Features() {
               The Future of Health Understanding is <span className="gradient-text-features">Here.</span>
             </h1>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              {"MedKit isn't just a document scanner; it's your personal health intelligence engine."}
+              {"MedKit is not just a document scanner; it's your personal health intelligence engine."}
 
             </p>
           </div>
@@ -104,7 +104,7 @@ export default function Features() {
                 <ul className="space-y-2 text-gray-600 mb-6">
                   <li className="flex items-center gap-2"><CheckCircle className="w-5 h-5 text-yellow-500" /> Green, Yellow, and Red alerts.</li>
                   <li className="flex items-center gap-2"><CheckCircle className="w-5 h-5 text-yellow-500" /> Contextual analysis of out-of-range values.</li>
-                  <li className="flex items-center gap-2"><CheckCircle className="w-5 h-5 text-yellow-500" /> Focuses your attention where it's needed.</li>
+                  <li className="flex items-center gap-2"><CheckCircle className="w-5 h-5 text-yellow-500" /> Focuses your attention where it is needed.</li>
                 </ul>
                 {/* <button className="inline-flex items-center gap-2 bg-gradient-to-r from-yellow-500 to-amber-600 text-white font-bold py-3 px-6 rounded-lg hover:from-yellow-600 hover:to-amber-700 transition-all duration-300 transform hover:scale-105">Understand Your Score <ChevronRight className="w-5 h-5" /></button> */}
               </div>
@@ -119,7 +119,7 @@ export default function Features() {
                  <div className="inline-block p-4 mb-4 bg-gradient-to-br from-purple-400 to-fuchsia-500 rounded-2xl"><ClipboardList className="w-8 h-8 text-white" /></div>
                 <h2 className="text-3xl font-bold text-gray-800 mb-2">Actionable Recommendations</h2>
                 <p className="text-gray-700 mb-5">
-                  Information without action is useless. MedKit provides general lifestyle and dietary suggestions based on your report's findings. We also generate a clean, shareable summary that you can easily send to your doctor, making your next consultation more productive than ever.
+                  Information without action is useless. MedKit provides general lifestyle and dietary suggestions based on your report&#39s findings. We also generate a clean, shareable summary that you can easily send to your doctor, making your next consultation more productive than ever.
                 </p>
                  <ul className="space-y-2 text-gray-600 mb-6">
                   <li className="flex items-center gap-2"><CheckCircle className="w-5 h-5 text-purple-500" /> Personalized lifestyle tips.</li>
